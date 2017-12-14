@@ -1,0 +1,308 @@
+--insert into user values(10001, sysdate(), 'AB');
+--insert into user values(10002, sysdate(), 'Jill');
+--insert into user values(10003, sysdate(), 'Jam');
+
+
+use heroku_f9dadb939f63eb0;
+
+CREATE TABLE book (
+	id INT NOT NULL AUTO_INCREMENT,
+    title varchar(250) NOT NULL,
+    description TEXT,
+  	PRIMARY KEY ( id )
+);
+
+
+insert into book(id, title, description) values (1,'Adrenal Fatigue', 'The 21st Century Stress Syndrome: What it is and how you can recover your energy, immune resistance, vitality, enjoyment of life by James L. Wilson, N.D., D.C., Ph.D.');
+insert into book(id, title, description) values (2,'Being Mortal', 'Medicine And What Matters In The End by Atul Gawande');
+insert into book(id, title, description) values (3,'The Big Fat Surprise', 'Why Butter, Meat And Cheese Belong In A Healthy Diet by Nina Teicholz');
+insert into book(id, title, description) values (4,'The Blue Zones', '9 Lessons For Living Longer From The People Who&apos;ve Lived the Longest by Dan Buettner');
+insert into book(id, title, description) values (5,'Brain Maker', 'The Power Of Gut Microbes To Heal 	And Protect Your Brain For Life by David Perlmutter MD');
+
+insert into book(id, title, description) values (6,'BrainRecovery.Com', 'Powerful Therapy for Challenging Brain Disorders by David Perlmutter, MD.');
+insert into book(id, title, description) values (7,'Caffeine Blues', 'Wake Up to the Hidden Dangers of America&apos;s #1 Drug by Stephen Cherniske, M.S');
+insert into book(id, title, description) values (8,'Celiac Disease', 'A Hidden Epidemic by Peter 	Green, M.D.');
+insert into book(id, title, description) values (9,'The China Study', 'By T. Colin Campbell, PhD and Thomas M. Campbell II');
+insert into book(id, title, description) values (10,'The Cholesterol Myths', 'Exposing the Fallacy That Saturated Fat and Cholesterol Cause Heart Disease by Uffe Ravnskov');
+
+insert into book(id, title, description) values (11,'Critical Condition', 'How Health Care in America 	Became Big Business &amp; Bad Medicine by Donald L Barlett and James B. Steele');
+insert into book(id, title, description) values (12,'Dangerous Grains', 'Why Gluten Grains May Be Hazardous to Your Health by James Braly, M.D. and Ron Hoggan, M.A.');
+insert into book(id, title, description) values (13,'The Definitive Guide to Cancer', 'An Integrative Approach to Prevention, Treatment and Healing by Lise Alschuler, ND, FABNO and Karolyn A. Gazella');
+insert into book(id, title, description) values (14,'Deliciously Ella', '100+ Easy, Healthy, And Delicous Plant-Based, Gluten-Free Recipes by Ella Woodward');
+insert into book(id, title, description) values (15,'Dr. Bernsteinâ&apos;s Diabetes Solution', 'By Richard K. Bernstein, M.D');
+
+insert into book(id, title, description) values (16,'Eat Fat, Get Thin', 'Why The Fat We Eat Is The Key To Sustained Weight Loss and Vibrant Health by Mark Hyman MD');
+insert into book(id, title, description) values (17,'Eat Fat Lose Fat', 'By Dr. Mary Enig and Sally Fallon');
+insert into book(id, title, description) values (18,'Eat Complete', 'The 21 Nutrients That Fuel Brainpower, Boost Weight Loss And Transform Your Health by Drew Ramsey MD ');
+insert into book(id, title, description) values (19,'Emperor of All Maladies', 'A Biography Of Cancer by Siddhartha Mukherjee');
+insert into book(id, title, description) values (20,'Excitotoxins', 'The Taste That Kills by Russell L. Blaylock, M.D.');
+
+
+insert into book(id, title, description) values (21,'Fast Food Nation', 'The Dark Side of the 	All-American Meal by Eric Schlosser');
+insert into book(id, title, description) values (22,'Fats that Heal, Fats that Kill', 'The Complete Guide to Fats, Oils, Cholesterol and Human Health by Udo Erasmus');
+insert into book(id, title, description) values (23,'The Fattening of America', 'How the Economy Makes Us Fat, If It Matters, and What to Do About It by Eric A. Finkelstein and Laurie Zuckerman');
+insert into book(id, title, description) values (24,'Follow Your Gut', 'The Enormous Impact of Tiny Microbes by Rob Knight');
+insert into book(id, title, description) values (25,'The Garden of Eating', 'A Produce-Dominated Diet &amp; Cookbook by Rachel Albert and Don Matesz');
+
+
+
+insert into book(id, title, description) values (26,'Good Calories Bad Calories Challenging the Conventional Wisdom on Diet, Weight Control and Disease', 'By Gary Taubes');
+insert into book(id, title, description) values (27,'Grain Brain', 'The Surprising Truth About Wheat, Carbs, And Sugar - Your Brain&apos;s Silent Killers by David Perlmutter MD');
+insert into book(id, title, description) values (28,'Gut', 'The Inside Story of Our Body&apos;s Most Underrated Organ by Giulia Enders');
+insert into book(id, title, description) values (29,'Healing Psoriasis', 'The Natural Alternative by Dr. John Pagano');
+insert into book(id, title, description) values (30,'Healing Spices', 'How To Use 50 Everyday and Exotic Spices To Boost Health And Beat Disease by Bharat B. Aggasrwal, PhD');
+
+
+insert into book(id, title, description) values (31,'Hypothyroidism Type 2', 'The Epidemic by Mark Starr MD');
+insert into book(id, title, description) values (32,'Iodine', 'Why You Need It, Why You Can&apos;t Live Without It by David Brownstein, MD');
+insert into book(id, title, description) values (33,'Less Medicine, More Health', '7 Assumptions That Drive Too Much Medical Care by Gilbert Welch MD');
+insert into book(id, title, description) values (34,'Living Downstream', 'An Ecologist Looks at Cancer and the Environment by Sandra Steingraber');
+insert into book(id, title, description) values (35,'Living Well With Hypothyroidism', 'What Your 	Doctor Doesn&apos;t Tell You That You Need to Know by Mary J. Shomon');
+
+
+insert into book(id, title, description) values (36,'Mastering Fermentation', 'By Mary Karlin');
+insert into book(id, title, description) values (37,'The Microbiome Solution', 'A Radical New Way To Heal Your Body From The Inside Out by Robyne Chutlan MD');
+insert into book(id, title, description) values (38,'Minding My Mitochondria', 'How I Overcame Secondary Progressive Multiple Sclerosis (MS) And Got Out Of My Wheelchair by Terry L. Wahls, MD');
+insert into book(id, title, description) values (39,'Missing Microbes', 'How The Overuse Of Antibiotics Is Fueling Our Modern Plagues by Martin J. Blaser, MD');
+insert into book(id, title, description) values (40,'Money-Driven Medicine', 'The Real Reason Health Care Costs So Much by Maggie Mahar');
+
+
+insert into book(id, title, description) values (41,'No Grain, No Pain ', 'A 30-Day Diet For Eliminating The Root Cause Of Chronic Pain by Dr. Peter Osborne ');
+insert into book(id, title, description) values (42,' Nourishing Traditions', ' The Cookbook that Challenges Politically Correct Nutrition and the Diet Dictocrats by Sally Fallon');
+insert into book(id, title, description) values (43,' One In A Billion', ' The Story Of Nic Volker And 	The Dawn Of Genomic Medicine by Mark Johnson and Kathleen Gallagher');
+insert into book(id, title, description) values (44,'Over-Diagnosed ', ' Making People Sick In The Pursuit Of Health by Dr. H. Gilbert Welch, Dr. Lisa M. Schwartz and Dr. Steven Woloshin');
+insert into book(id, title, description) values (45,'Overdosed America ', 'The Broken Promise of American Medicine by John Abramson MD ');
+
+
+
+
+ALTER TABLE testimonial
+MODIFY COLUMN content longtext; 
+
+TRUNCATE TABLE testimonial;
+
+
+
+use heroku_f9dadb939f63eb0;
+
+insert into testimonial(id, customer_name, address, content) values(
+	1,
+   'Barbara',
+	'Scottsdale, AZ', 
+	'<p>For years I had an enlarged thyroid with a fluid filled cyst. Although my thyroid functioned normally the enlargement sometimes made it difficult to swallow and constantly pressed on my windpipe. An endocrinologist put me on Synthroid to reduce the swelling but it had very little effect, plus I knew it depleted calcium. After my thyroid was aspirated, the size only went down about 30%. At that point the doctor recommended that I have it surgically altered, either reduced in size or completely removed. </p><h5>Then I found Dr. Allyn. I especially liked her Naturopathic approach of determining the cause and not just treating the symptom.</h5><p>She suspected I had an iodine deficiency, and the tests she performed proved she was right. She put me on an iodine supplement and the results have been very positive. My throat looks and feels &apos;normal&apos; again. Thanks, Dr. Allyn.</p>'
+);
+    
+insert into testimonial(id, customer_name, address, content) values(
+	2,
+ 		'Cynthia Siebel',
+      'Fountain Hills, AZ',
+      '<p>An office visit to Dr. Allyn&apos;s home is like discovering an oasis in the middle of the desert.  It is a &apos;refuge of serenity&apos; amid the chaos of our present day world. </p><p>I have known her for many years and always leave an appointment amazed by her ability to recall pertinent medical information.  She is blessed with an unending concern for her patient&apos;s welfare.  Her compassion, humbleness, and integrity are always present.  Being a prudent person, Dr. Allyn displays sound judgment in medical manners.  This was quite evident in her correct diagnosis of my health concerns--authorly a gluten issue and a hypo-thyroid condition. </p><h5>Dr. Allyn is one of God&apos;s gifts to me and I am sure to many others who have benefited by being her patient. </h5>'
+);
+
+insert into testimonial(id, customer_name, address, content) values(
+    3,    
+	'D. H.',
+        'Fountain Hills, AZ',
+        '<p>Dr. Allyn literally saved my life. For many years I saw doctors for various illnesses. I was always having a medical problem. One day I called Dr. Allyn about another condition that had arisen. She answered my question about the newest predicament, but then she called me a few days later. Dr. Allyn had studied my huge file and saw that there was a &ldquo;pattern&rdquo; of sorts. She suggested that I be tested for Lyme disease. She had pieced the puzzle together correctly. I do have Lyme disease.</p><p>With this diagnosis, I made an appointment with an expert in auto-immune diseases, hoping that he would be of help. I was sadly mistaken. His conclusion was that there was nothing they could do for me. I would just have to live with the horrible things this disease can do.</p><p>Lucky for me, I had Dr. Allyn on my side. We were able to go outside the box, which was empty of options at this point.</p><p>At one point my body was so depleted that I did not have the energy to get out of bed. She was able to help me get my immune system working and moving again through the use of herbs, supplements and acupuncture. We used all of the alternatives available to us. She also put me in contact with another physician who was doing some new innovative laser treatment. People were coming to him from all over the world for Lyme disease and other illnesses. She went with me to see him so that we could both learn what he had to offer and how it would work.</p><h5>I am very happy to report that I was bedridden for a time, but now I am 90% back to normal. I am leading a productive, full life, and being able to enjoy all the things I had to put on hold. Without Dr. Allyn’s persistence this would not be possible.</h5><h5> She likes to work the puzzles and figure out what is wrong, and she is always on the look-out for new solutions. Thank you Dr. Allyn!</h5>'
+);
+
+insert into testimonial(id, customer_name, address, content) values(
+	4,
+       'David Milster',
+       'Payson, AZ',
+       '<p>I was referred to Dr. Allyn by my wife, who was being treated for Hashimoto&apos;s. The successes that were being achieved for her, motivated me to also seek Dr. Allyn&apos;s advice.  At that time I was on two diabetic prescriptions, two blood pressure prescriptions, one blood thinner, one statin, and one thyroid prescription. Dr. Allyn converted me to a Paleo/Auto-Immune lifestyle, and also referred me to Dr. Wolfson, the Paleo Cardiologist.</p><h5> Between the two doctors&apos; advice, and a Paleo/Auto-Immune lifestyle and exercise, I am now off all prescription medications except Nature-Throid. I&apos;m also 48 pounds lighter than I was before meeting Dr. Allyn. I would highly recommend her to anyone seeking a healthy lifestyle. </h5>'
+);
+    
+insert into testimonial(id, customer_name, address, content) values(
+	5,       
+'Frances Derengowski',
+       'Fountain Hills, AZ',
+       '<p>When I moved to Arizona from the East Coast, my new friends suggested that at my age I should have a doctor to consult. An appointment was made and to my dismay, I found myself in an ICU room at a local hospital. The tests that the doctor recommended showed that I had Celiac Sprue. It was something I knew nothing about.</p><p>I was discharged from the hospital and sent home with a list of foods containing gluten with the admonition, &quot;Don&apos;t eat anything on the list.&quot; That was it.</p><p>A friend of my daughter&apos;s, Dr. Allyn Krieger-Fiedler, in answer to my daughter&apos;s query, gave me much needed assistance as she has done research on this disease. She took me in hand, gave me appropriate herbs to take and researched things like toothpaste, mouthwash, medications, etc. containing gluten. </p><h5>It is now over 17 years and I just celebrated my 100th birthday in July. Dr. Allyn&apos;s ongoing information and help with an appropriate diet played a large part in my reaching 100 years. Needless to say, she was an honored guest at my birthday party. Without Dr. Allyn&apos;s long time and tireless assistance, I do not think the party would have been planned nor have occurred.</h5>' 
+);
+    
+insert into testimonial(id, customer_name, address, content) values(
+	6,        
+'Ian Jeffrey',
+        'Scottsdale, AZ',
+        '<p>After three sinus infections in six months and a lifetime of allergies, I visited Dr. Allyn. She suggested food allergies. The remedy, a &quot;Detox&quot; program to identify the offending foods.</p><h5>She was correct and after modifying my food intake, I am now off allergy medication (over 40 years worth) and have had no colds or flu in years, despite traveling to work by air each week. </h5>'
+);
+    
+insert into testimonial(id, customer_name, address, content) values(
+	7,       
+	'J. Evans',
+       'Fountain Hills, AZ',
+       '<p>Sinus Issues:</p><p>After suffering for several years with chronic sinus infections, I decided to get to the root of the problem rather than just treat the symptoms. Naturopathic medicine appealed to me on many levels, so I contacted Dr. Allyn and made an appointment to meet her. I was extremely impressed by her thoroughness, knowledge and professionalism.</p><p>Under the doctor’s careful supervision, I went through a series of tests to determine what food allergies I had. Was I ever surprised at the results! Dr. Allyn also taught me the proper use of a netti pot, and the importance of steam inhalation to keep my sinus passages healthy. We talked at length about nutrition, vitamins, exercise, rest, and so much more.</p><h5>By following her expert advice, I was able to eliminate my sinus problems. Dr. Allyn was a tremendous help to me, and I recommend her wholeheartedly.</h5>'
+);
+    
+insert into testimonial(id, customer_name, address, content) values(
+     8,  
+	'J.A. Taylor',
+       'Naples, FL',
+       '<p>Having moved 35 times in my lifetime, I&apos;ve been under the care of more medical professionals than I care to count. Dr. Allyn Krieger-Fiedler has been my primary care physician since November 30, 1998. There isn&apos;t any question in my mind that one will not find a more caring, thorough or conscientious doctor anywhere.</p><p>When I listen to my friends and family members talk about the difficulties communicating with their doctors or nurses, I am doubly grateful for Dr. Allyn&apos;s willingness to schedule a telephone call with me when necessary or provide e-mail assistance.</p><h5>With more than 325 pages of documentation in my file, I am not an easy patient. My protocol has changed dozens of times over the years. Yet, if a question arises about an earlier event, Dr. Allyn is always able to retrieve the information quickly because she keeps meticulous records.</h5><p>If you are considering alternative solutions to your health issues, I believe there is an excellent possibility you will be able to get to the bottom of those challenges under the care of Dr. Krieger-Fiedler.</p>'
+);
+
+insert into testimonial(id, customer_name, address, content) values(
+    9, 
+	'Jeff and Michele Esslinger',
+     ' ',
+     '<p>Dr. Allyn is the one of the best doctors we&apos;ve ever had the privilege of working with, conventional or otherwise.</p><p>Her level of care and bedside manner are exemplary. But it&apos;s her thorough investigative techniques and thoughtful healing protocols that led to the best health we&apos;ve had in decades.</p><p>We&apos;re incredibly grateful for her insight and wisdom and highly recommend her to anyone seeking to improve their health on any level.</p>'
+);
+    
+insert into testimonial(id, customer_name, address, content) values(
+    10,    
+	'Jim',
+       'Surprise, AZ',
+       '<p>I am a 62 year-old male. For a period of almost 10 years, I have struggled with symptoms that got progressively worse and having Doctors repeatedly tell me they could find nothing wrong. One stated that I should be “thankful” for the shape I was in at my age. The only issues that seemed to consistently resurface in lab work was a deficiency in Vitamin D levels, which the Doctors addressed with advice to take an over-the-counter Vitamin D supplement, and some minor elevation in cholesterol levels (deemed typical for someone my age). However, taking Vitamin D supplements did not help with the deficiency.</p><p>I also struggled with weight issues, unable to get my weigh down into the 180 lb range from over 240 lbs. While I was already avoiding all the sugar, sugar substitutes and other bad things such as fried foods (those “evil” dietary no-no’s), this did not seem to help much. I tried two different &quot;Medi...&quot; programs in the area at great expense and loss of my personal time. While I realized small, short-term improvements in weight loss, 10-15 lbs. usually, I would reach plateaus below which nothing seemed to work. The weight would return as soon as I would leave the program, and the other symptoms (which I assumed were caused by the excessive weight) would never improve. Brain fog, digestive distress, weakness and feeling tired, loss of mental acuity, hair thinning, and skin aging problems were all slowly getting worse as the years passed. I felt like I was slowly being poisoned, but none of the Doctors I visited were of any help. Due to my age, 58 at the time, I did have a colonoscopy done which came back negative. The gastroenterologist had no explanation for the digestive issues I was having, despite my complaints and clear evidence to the contrary. I was getting very discouraged, because I knew something was very wrong. </p><p>Out of frustration, in December 2015 I began searching for medical studies that addressed the same symptoms I was realizing, and one thing kept surfacing again and again… problems with digestion related to gluten and its effects on body chemistry in general. As I researched further, the subject of “leaky gut syndrome” (intestinal permeability) seemed to also be associated with many of the symptoms from which I was suffering… again with its roots in gluten consumption. So, I began searching for a Doctor with expertise in these things in the greater Phoenix area and visited Dr. Allyn Krieger-Fiedler. While she patiently and compassionately listened I shared my story with her, and we began a journey that has resulted in my feeling 20 years younger. </p><p>For the first 4-6 weeks, only minor change was noted. Then, almost suddenly, my weight started melting off at an amazing rate and my other symptoms began to improve. After about 6 months, I am now down almost 60 lbs to about 182 lbs (the same weight I was when I was in the Army 30 years ago!) without any change in exercise habits, without B-12 injections or other physical activity. My energy levels are much improved, and my mind is as sharp now as when I was in college (I am a computer scientist by trade). My digestion is back to normal, my lost hair is growing back, my skin looks much younger and I feel like a different person… all without taking any expensive (and potentially risky) prescription medications! Dr. Allyn also identified a genetic issue I have that addressed the Vitamin D deficiency, in that my body was unable to properly process Vitamin D (which is critical to good health) in the form commonly available as a over-the-counter supplement… something no other Doctor even considered checking over the years.</p><p>In short, I consider Dr. Allyn Krieger-Fiedler a &quot;God-send&quot;. I cannot speak highly enough of both her genuine concern for me as a patient, and her technical competency. I no longer feel like my health is on a &quot;down-hill slide&quot; and I am looking forward to many more years of active and productive life with my wonderful wife. </p><p>I am now convinced that the foods we Americans commonly are &quot;sold&quot; in the stores and restaurants are a root cause of many American health issues. I am also convinced that Dr. Allyn is an exceptional healer, and worthy of my highest endorsement.</p>'
+);
+    
+insert into testimonial(id, customer_name, address, content) values(
+	11,
+       'Joe',
+       'Fountain Hills, AZ',
+       '<p>I am a 37 year old male. I highly recommend Dr. Krieger-Fiedler. When I first came to see Dr. Krieger-Fiedler, I was very tired, not just ordinary tired. I had trouble getting out of bed in the morning even after ten hours of sleep. My medical doctor said I was just fine due to their blood test. So I had several blood tests and food sensitivity tests with Dr. Krieger-Fiedler and found out what the real problems were. I was allergic to hops, beets, cottonseed, egg whites to author a few. After eliminating these foods I feel great. </p><p>With Dr. Krieger-Fiedler’s attention I feel relief and have energy like I was 18 years old. Mentally, I feel much more clear and experience more self-confidence and strength. I feel balanced and energized! I recommend Naturopathic medicine to get to the root of the problem.</p>'
+);
+    
+insert into testimonial(id, customer_name, address, content) values(
+	12,
+       'Kathy Berry',
+       ' ',
+       '<p>I had been suffering from the effects of Latent Celiac disease for several years and had been to numerous doctors around the country in an effort to deal with the myriad of symptoms resulting from that disease. None of the doctors I worked with were able to diagnose this issue and the severe health problems associated with Celiac Disease persisted for almost two years.  I noticed an article in the local Fountain Hills newspaper about a support group that dealt with health issues run by Dr. Allyn.   My husband and I attended that session and after participating I decided to schedule an appointment with her. The rest is history!!  Allyn tested me for food allergies, determined that I had sensitivities to numerous foods, found that I had Latent Celiac Disease, prescribed supplements for me, changed my diet and got my life back on track.</p><p>It is hard to describe how much my quality of life improved through her determined efforts to work with me. Allyn&apos;s work ethic, empathy, knowledge and professionalism are of the highest standards for what is expected from a health professional and I would recommend her to anyone who needs help with their overall health. My husband has also worked with Allyn and his health and life quality have also been significantly improved with her help and support.</p><p>We rely on her advice for health issues on an ongoing basis and cherish her friendship!!</p>'
+);
+    
+ insert into testimonial(id, customer_name, address, content) values(
+ 	13,
+        'Kathy Byers',
+        'Fountain Hills, AZ',
+        '<p>I’ve been a patient of Dr. Krieger-Fiedler’s for several years now. She brings to her practice of medicine a wonderful blend of knowledge, compassion and innovation.</p><p>In addition, every patient of Dr. Krieger-Fiedler’s is treated as an individual, not a number. Hers is not the traditional “cookie-cutter” medicine patients so frequently see in health care today.</p>'
+);
+    
+insert into testimonial(id, customer_name, address, content) values(
+	14,
+       'L. G.',
+       ' ',
+       '<p>Food Allergies:</p><p>I was suffering from frequent urination for many years. After seeing many doctors (MD’s), doing test after test and trying many medications, to no avail, I contacted Dr. Allyn Krieger-Fiedler (NMD). Dr. Allyn, as she is affectionately called, listened and took note of my situation and my symptoms. She suspected I may have some food allergies. I took a panel of food and chemical allergy tests and found out she was correct. I have since eliminated wheat and dairy products from my diet and my frequent urination is gone. Thank you Dr. Allyn!</p>'
+);
+    
+insert into testimonial(id, customer_name, address, content) values(
+	15,
+       'Libby Floyd Davis',
+       'Fountain Hills, AZ',
+       '<p>It is always a breath of fresh air to meet an individual who displays a high degree of integrity, and Dr. Allyn Krieger-Fiedler is one of those individuals. Natural healing occurs naturally as a result of Allyn’s integrity, naturopathic medical training, and listening skills; all the patient has to do is follow her direction.</p>'
+);
+    
+insert into testimonial(id, customer_name, address, content) values(
+	16,
+       'Linda Wicoff',
+       'Chandler, AZ',
+       '<p>Psoriasis:</p><p>Dear Dr. Allyn, <p>Just a short note to let you know how extraordinary my experiences with you have been. Naturopathic medicine has given me the tools to become and remain a healthy person. The time and attention and true caring at your office are wonderful. I feel comfortable knowing that I can call or email you with questions or problems and know that you’re always there for me.</p><p>It’s not just another visit to the doctor, it’s an education provided in a serene, professional environment. Health issues I thought I’d have to live with the rest of my life have greatly improved or, in the case of my psoriasis, are completely cured. I appreciate the wide variety of tools you have provided me---books, pamphlets, websites and clinical testing.</p><p>Once I learned how to look at nutrition and supplements differently, I realized there’s no going back to the old ways.</p><p>Your genuine caring, compassion and knowledge have made getting and staying healthy easier and pleasant. My hope is that everyone could find the same.</p><p>Thank you again,</p>'
+);
+    
+insert into testimonial(id, customer_name, address, content) values(
+	17,
+       'Lisa Blake',
+       'Fountain Hills, AZ',
+       '<p>After 2 years, numerous doctors and a trip to the Mayo Clinic, I found Dr. Krieger-Fiedler. I battled with a severe thyroid issue that I could never seem to get medicated properly. Dr. Krieger-Fiedler ran much more extensive tests and put me on a natural alternative to traditional thyroid medicines that have been working wonders for the last 2 years. She is without a doubt the most knowledgeable physician that I have met regarding thyroid problems. She is caring, compassionate and readily available to her patients. She has changed my life!</p>'
+);
+    
+insert into testimonial(id, customer_name, address, content) values(
+	18,
+        'Marianne Trost',
+       'The Women Lawyers Coach, LLC',
+       '<p>Dr. Allyn helped me enormously. After worsening under the care of a highly credentialed, well known western M.D., my mother suggested I try a Naturopath. I had no idea what to expect. The experience changed my life forever. Not only was Dr. Allyn quickly able to put her finger on the medical problem, but she was also able to identify several other contributing factors that were aggravating the situation. The treatments that she offered and the lifestyle changes that she encouraged were natural and in synch with my body. With Dr. Allyn’s help I was gradually able to get off of all thyroid medication and rebalance my endocrine system. I am now completely well and healthier than I ever would have imagined possible, thanks to Dr. Allyn.</p>'
+);
+    
+insert into testimonial(id, customer_name, address, content) values(
+	19,
+        'Michelle Williams',
+        'Fountain Hills, AZ',
+        '<p>In the 20 years that I have known Dr. Allyn Krieger-Fiedler, she has always been a kind and caring person. So when she decided to pursue the Naturopathic health care field, I knew that this would carry over in her work. She always takes the time to understand your needs, never rushes you and gives you information to read so you have better knowledge of your issues. Unlike medical doctors, Dr. Allyn tries to help you solve your ailments without drugs that could do more harm than good. With proper diet and nutrition she will help you on your road to recovery. Thanks Dr. Allyn.</p>'
+);
+    
+insert into testimonial(id, customer_name, address, content) values(
+	20,
+       'N.K',
+       'Fergus Falls, MN',
+       '<p>I have been Dr. Krieger-Fiedler’s patient since 1998, when she resolved my debilitating heavy menstrual bleeding problem. A gynecologist wanted to cut out my uterus but I thought there must be a less drastic option and Dr. Krieger-Fiedler had it. After testing me for sensitivities, bacteria and yeast overgrowth, she put me on a protocol of diet, nutritional supplements and natural remedies. After 4 months I was felling better so I was not faithful with the diet.</p><p>Recently, I was suffering with extreme fatigue, depression, acid reflux, migraines, joint pain and weight gain. Dr. Krieger-Fiedler ordered a complete thyroid panel which showed that I had an autoimmune thyroid disease called Hashimoto’s. Her next step was to figure out why antibodies were attacking my thyroid. Past experience prompted Dr. Krieger-Fiedler to investigate whether or not gluten sensitivity may be the reason for the hyperactive immune system. Further testing confirmed her suspicions. I began a protocol of thyroid medication and a gluten free diet. All my symptoms soon started to resolve. After 8 months I was able to shed 30 pounds without starving myself. It is amazing to me how all of my symptoms were linked to diet. I have felt better in the past year than I have in the past decade. Therefore, I will not stray from my diet in the future. It just isn’t worth the suffering.</p>'
+);
+    
+insert into testimonial(id, customer_name, address, content) values(
+	21,
+       'Nikki C',
+       ' ',
+      '<p>I have been Dr Allyn’s patient for over two decades.  My original issue was thyroiditis.   Unlike several doctors I had seen prior to her, she correctly diagnosed the problem and helped me find the medicine that worked best for me. Over the years I&apos;ve developed other auto-immune diseases and she continues to advise me on how best to deal with these issues. She is a doctor that truly, deeply cares about helping her patients and will bend over backwards to provide all of the assistance you need.</p>'
+);
+    
+insert into testimonial(id, customer_name, address, content) values(
+	22,
+        'Pat Kolasinski',
+       ' ',
+       '<p>About four years ago, I was very frustrated with traditional medical doctors because they didn&apos;t address how awful I felt (like hitting a wall). Some of my problems were caused by Hashimoto&apos;s disease. I found Dr. Allyn, who really listened to what I told her and had me tested for several other possible conditions that could have contributed to the misery. Because of her thoroughness, I found I had gluten, dairy and corn intolerance in addition to the thyroid issue. Since changing my diet and thyroid medication, I have been feeling much more like I used to with enough energy to do my favorite hobbies. Thank you, Dr. Allyn!</p>'
+);
+    
+insert into testimonial(id, customer_name, address, content) values(
+	23,
+       'R.S.',
+        ' ',
+        '<p>Dr. Allyn Krieger-Fiedler is the epitome of physician as trusted teacher and healer. Her knowledge is vast and her compassion is boundless. She shares generously because she wants us to be empowered with knowledge and willing to take charge of our health. Over many years Dr. Allyn has assessed my health concerns, providing guidance and protocols that lead to improvement and sustained good health. In addition, I have been part of regular community gatherings where practices and information are shared across a broad range of health issues. Dr. Allyn&apos;s commitment to serving her community through the gift of her time and expertise is admirable in this information age when we are bombarded with conflicting and confusing guidance. Her calm demeanor is paired with her uncompromising commitment to truth and integrity. I have full confidence in her wisdom and advice as well as gratitude for her generosity and expertise. Dr. Allyn is a blessing beyond measure to her patients and community.</p>'
+);
+    
+insert into testimonial(id, customer_name, address, content) values(
+	24,
+       'Richard C., retired investor and sunbird',
+        ' ',
+        '<p>I have been a patient of Dr. Allyn’s for a year and a half. She has certainly helped me with her professional manner and comprehensive naturopathic knowledge, which is enhanced by her unique empathetic manner. Gosh, rather than hand me her excellent recipes to try, she even surprised me occasionally with healthy treats when I arrived for weekly B-12 shots.</p>'
+);
+    
+insert into testimonial(id, customer_name, address, content) values(
+	25,
+       'Sara Hoffer',
+       'Fountain Hills, AZ',
+       '<p>Originally, I was referred to Dr. Allyn by a friend who also had unresolved medical issues. Upon my meeting with Dr. Allyn, I knew that she cared. She made me feel very comfortable and asked me a variety of questions that would help her to understand my specific health concerns. I found Dr. Allyn to be a great listener, compassionate and experienced with evaluating my situation. She is easily accessible and willing to understand and process her patient’s concerns. I would encourage others to seek her care.</p>'
+);
+    
+ insert into testimonial(id, customer_name, address, content) values(
+ 	26,
+        'Skip Collett',
+        'Eugene, OR',
+        '<p>Gastrointestinal Issues:</p><p>I have been a patient of Dr. Allyn Krieger-Fiedler for the past four years. She is a very caring and knowledgeable Naturopathic Doctor. With her guidance and recommendations my health has improved greatly. She was able to clear a recurring case of pneumonia after my primary care physician prescribed a third round of antibiotics. I am approaching my third anniversary of no antibiotics, a record in my life. Dr. Allyn has convinced me on the benefits of a healthy digestive tract and increased immune system function.</p><p>Allyn has become a trusted friend and great support in many areas of my life. She understands and practices holistic medicine, knowing each of her patients is more than a collection of symptoms to be found and corrected. One thing I truly value is Allyn’s honesty. If she doesn’t know something I ask about she will tell me and either research it fully or provide options for help from other sources.</p>'
+);
+    
+insert into testimonial(id, customer_name, address, content) values(
+	27,
+       'Susan Harding',
+       'Fountain Hills, AZ',
+        '<p>Dr. Allyn Krieger-Fiedler’s approach to her patient’s care is personal, comprehensive and responsive. She truly cares for her patients’ health and determining the core reason for a particular health problem.</p><p>Dr. Krieger-Fiedler has been the reason why I enjoy good health in my sixties. A few years ago I was not feeling well…lethargic and no energy. She determined that the problem was due to my low immune system, and immediately set forth in pumping that up. With supplements and diet, she had me begin a protocol with emphasis on my having a more balanced gut with good bacteria, rather than bad bacteria. It was successful and I felt like a new person.</p><p>I was again feeling very tired some years later and she determined that I was hypothyroid. I began a regimen of natural thyroid supplements and I’m on top of the world again. She has gained a reputation of being extremely knowledgeable in the area of thyroid hormone treatment. She has treated me successfully for a variety of symptoms, from estrogen replacement to clearing up a urinary tract infection, all with natural products. Although she uses natural protocols, alongside her treatment, she uses imaging and lab tests frequently to help her with her analysis of a problem.</p><p>I would wholeheartedly recommend Dr. Krieger-Fiedler. She is extremely knowledgeable, has a sharp and analytical intellect and is a “natural” in the Naturopathic field.</p>'
+);
+    
+insert into testimonial(id, customer_name, address, content) values(
+	28,
+        'Tamara Candy',
+        ' ',
+        '<p>Dr. Allyn was a breath of fresh air after several &quot;conventional&quot; medical doctors knew nothing about how to improve my declining health. I spent my new engagement and first part of my new marriage with too many awful symptoms to list. Dr. Allyn was able to diagnose Hashimoto&apos;s disease and adrenal fatigue and set me on the right path. She listened carefully and provided thoughtful suggestions on what to test and how to treat. We worked on increasing the diversity of my microbiome, changed to a natural thyroid med, made necessary diet/lifestyle changes, identified nutritional deficiencies and added vitamin/mineral supplementation. Dr. Allyn started me on a life-long journey of health through holistic healing. I will never go back to my &quot;old life&quot;. I am forever grateful to Dr. Allyn for sharing her knowledge and insight in such an empathetic way. She has a special way where she combines professionalism with a sweet personal touch. I highly recommend her!</p>'
+);
+    
+insert into testimonial(id, customer_name, address, content) values(
+	29,
+       'Tami G',
+       'Phoenix, AZ',
+       '<P>My author is Tami and I am a flight attendant for our local airline. I have been flying for 13 years. I thought I was in permanent jet lag. I had no energy. I had huge sugar cravings and was over weight.</P><P>I met Dr. Allyn at an Iodine seminar that my sister was attending and I talked to her briefly, telling her I wanted to get healthy from the inside out and she thought she could help me and gave me her business card. I called her a couple of months later and we set up an appointment. She ordered several tests and after we got the results back she found an overgrowth of candida albicans and klebsiella pneumonia and no growth of lactobacillus. She also found that I was very low on iodine.</P><P>Dr. Allyn put together a custom prescription to treat the overgrowth of pathogens and to correct the lack of lactobacillus and iodine. It included a detox diet for a few weeks, continued by a yeast free diet following that and treating the pathogens. I had to have an ultrasound of my thyroid before I started taking the iodine supplement. That revealed some spots on my thyroid. Dr. Allyn said not to worry. The iodine should take care of that. We continue to monitor my thyroid with ultrasounds.</P><P>I then started the program that she had laid out for me. We retested in a few weeks and found some new organism which she treated. I continued on the program for about 8 or 9 months and then we found that the pathogens were gone but that I still had no lactobacillus. I will continue to take a custom probiotic for that for quite a while.</P><P>We also tested my thyroid function with blood work which revealed that I had Hashimoto’s disease. I started taking thyroid medication (Nature-Throid) for the Hashimoto’s disease.</P><P>I have now lost 13 pounds with the program Dr. Allyn prescribed for me and I have so much more energy since starting the Nature-Throid. I feel so much better and had no idea I had so many things going on in my body.</P><P>I had other issues during that year, like a cat bite that became infected. Dr. Allyn called me every day to see how I was doing. She also did research to see what other things I could do to help with the infection and healing other than the antibiotics I had to take. She has always been there when I needed her. I don’t know how I got along this long without her.</P><P>I continue to see Dr. Allyn and we plan to continue to see what other issues I may not know about, like possible food allergies and whatever we decide I need to check out based on any symptoms I may have.</P><P>Dr. Allyn thanks for always being there and for being my friend.</P>'
+);
+    
+insert into testimonial(id, customer_name, address, content) values(
+	30,
+        'Tracy',
+       'Saudi Arabia / Arizona',
+       '<p>Dr. Allyn has been an extremely knowledgeable and helpful guide on my path to wellness. I live overseas and am only in the Phoenix area for a few weeks out of the year, but she was willing to work with me and was very accommodating of my tight schedule. She recommended tests that I would have never been able to get from a traditionally trained Western physician. Between her listening skills and the tests that she subsequently ordered, we had the necessary information that was needed to improve my health. She also follows up with me online to see how I am progressing and we have had consultations via Skype when necessary.</p><p>I am very pleased with the care and compassion that she has for her patients and I am grateful that I decided to see her. One appointment with her going over the test results, gave me more information than I had gotten in seeing regular doctors over the last 20 plus years. I wish I had known about naturopathic medicine and Dr. Allyn sooner!</p>'
+);
+   
+insert into testimonial(id, customer_name, address, content) values(
+	31,
+        'Zoey',
+       'TX',
+       '<p>Naturopathic medicine is my choice for health care. After years of allopathic care (where the attitude was &ldquo;sorry, no answer, no cure, try this pill&rdquo;), Dr. Allyn quickly diagnosed that I had chronic Lyme disease. Now, I am free of its symptoms and only need to take a simple herb daily.</p><p>With Dr. Allyn’s thorough testing and analysis she empowered me with knowledge to control my food allergies. I can now make informed food decisions and identify the additives that are detrimental to my health.</p><p>Dr. Allyn also provides additional support through informational resources such as cookbooks, cooking and gardening tips and updates on new medical information.</p><p>I feel that I am now in charge of my health because I am supported by Dr. Allyn’s knowledge and dedication.</p><p>I am grateful to have Dr. Allyn Krieger-Fiedler in my life.</p>'
+);
+
+
+
+
+ 

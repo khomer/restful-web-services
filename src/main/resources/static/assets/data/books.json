@@ -1,0 +1,393 @@
+[
+    {
+        "id": 1,
+        "title": "Adrenal Fatigue",
+        "description": "The 21st Century Stress Syndrome: What it is and how you can recover your energy, immune resistance, vitality, enjoyment of life by James L. Wilson, N.D., D.C., Ph.D."
+    },
+    {
+        "id": 2,
+        "title": "Animal Vegetable Miracle",
+        "description": "A year of Food Life by Barba"
+    },
+    {
+        "id": 3,
+        "title": "Being Mortal",
+        "description": "Medicine And What Matters In The End by Atul Gawande"
+    },
+    {
+        "id": 4,
+        "title": "Brain Maker",
+        "description": "The Power Of Gut Microbes To Heal And Protect Your Brain For Life by David Perlmutter MD"
+    },
+    {
+        "id": 5,
+        "title": "BrainRecovery.Com",
+        "description": "Powerful Therapy for Challenging Brain Disorders by David Perlmutter, MD."
+    },
+    {
+        "id": 6,
+        "title": "Caffeine Blues",
+        "description": "Wake Up to the Hidden Dangers of America's #1 Drug by Stephen Cherniske, M.S"
+    },
+    {
+        "id": 7,
+        "title": "Celiac Disease",
+        "description": "A Hidden Epidemic by Peter Green, M.D."
+    },
+    {
+        "id": 8,
+        "title": "Critical Condition",
+        "description": "How Health Care in America Became Big Business & Bad Medicine by Donald L Barlett and James B. Steele"
+    },
+    {
+        "id": 9,
+        "title": "Dangerous Grains",
+        "description": "Why Gluten Grains May Be Hazardous to Your Health by James Braly, M.D. and Ron Hoggan, M.A."
+    },
+    {
+        "id": 10,
+        "title": "Deliciously Ella",
+        "description": "100+ Easy, Healthy, And Delicous Plant-Based, Gluten-Free Recipes by Ella Woodward"
+    },
+    {
+        "id": 11,
+        "title": "Dr. Andrew Weil's Guide To Optimum Health",
+        "description": "A Complete Course On How to Feel Better, Live Longer, and Enhance Your Health - Naturally (Audio CD)"
+    },
+    {
+        "id": 12,
+        "title": "Dr. Bernstein's Diabetes Solution",
+        "description": "By Richard K. Bernstein, M.D"
+    },
+    {
+        "id": 13,
+        "title": "Eat Complete",
+        "description": "The 21 Nutrients That Fuel Brainpower, Boost Weight Loss And Transform Your Health by Drew Ramsey MD"
+    },
+    {
+        "id": 14,
+        "title": "Eat Fat Lose Fat",
+        "description": "By Dr. Mary Enig and Sally Fallon"
+    },
+    {
+        "id": 15,
+        "title": "Eat Fat, Get Thin",
+        "description": "Why The Fat We Eat Is The Key To Sustained Weight Loss and Vibrant Health by Mark Hyman MD"
+    },
+    {
+        "id": 16,
+        "title": "Emperor Of All Maladies",
+        "description": "A Biography Of Cancer by Siddhartha Mukherjee"
+    },
+    {
+        "id": 17,
+        "title": "Excitotoxins",
+        "description": "The Taste That Kills by Russell L. Blaylock, M.D."
+    },
+    {
+        "id": 18,
+        "title": "Fast Food Nation",
+        "description": "The Dark Side of the All-American Meal by Eric Schlosser"
+    },
+    {
+        "id": 19,
+        "title": "Fats That Heal, Fats That Kill",
+        "description": "The Complete Guide to Fats, Oils, Cholesterol and Human Health by Udo Erasmus"
+    },
+    {
+        "id": 20,
+        "title": "Follow Your Gut",
+        "description": "The Enormous Impact of Tiny Microbes by Rob Knight"
+    },
+    {
+        "id": 21,
+        "title": "Good Calories Bad Calories Challenging The Conventional Wisdom On Diet, Weight Control And Disease",
+        "description": "By Gary Taubes"
+    },
+    {
+        "id": 22,
+        "title": "Grain Brain",
+        "description": "The Surprising Truth About Wheat, Carbs, And Sugar - Your Brain's Silent Killers by David Perlmutter MD"
+    },
+    {
+        "id": 23,
+        "title": "Gut",
+        "description": "The Inside Story of Our Body's Most Underrated Organ by Giulia Enders"
+    },
+    {
+        "id": 24,
+        "title": "Healing Psoriasis",
+        "description": "The Natural Alternative by Dr. John Pagano"
+    },
+    {
+        "id": 25,
+        "title": "Healing Spices",
+        "description": "How To Use 50 Everyday and Exotic Spices To Boost Health And Beat Disease by Bharat B. Aggasrwal, PhD"
+    },
+    {
+        "id": 26,
+        "title": "Hypothyroidism Type 2",
+        "description": "The Epidemic by Mark Starr MD"
+    },
+    {
+        "id": 27,
+        "title": "I Am The Central Park Jogger",
+        "description": "A Story of Hope and Possibility by Trisha Meili (Audio CD)"
+    },
+    {
+        "id": 28,
+        "title": "In Defense Of Food: An Eater's Manifesto",
+        "description": "By Michael Pollan (Audio book)"
+    },
+    {
+        "id": 29,
+        "title": "Iodine",
+        "description": "Why You Need It, Why You Can't Live Without It by David Brownstein, MD"
+    },
+    {
+        "id": 30,
+        "title": "Less Medicine, More Health",
+        "description": "7 Assumptions That Drive Too Much Medical Care by Gilbert Welch MD"
+    },
+
+    {
+        "id": 31,
+        "title": "Living Downstream",
+        "description": "An Ecologist Looks at Cancer and the Environment by Sandra Steingraber"
+    },
+    {
+        "id": 32,
+        "title": "Living Well With Hypothyroidism",
+        "description": "What Your Doctor Doesn't Tell You That You Need to Know by Mary J. Shomon"
+    },
+       {
+        "id": 33,
+        "title": "Louder Than Words",
+        "description": "A Mother's Journey in Healing Autism by Jenny McCarthy (Audio CD)"
+    },
+    {
+        "id": 34,
+        "title": "Mastering Fermentation",
+        "description": "By Mary Karlin"
+    },
+    {
+        "id": 35,
+        "title": "Minding My Mitochondria",
+        "description": "How I Overcame Secondary Progressive Multiple Sclerosis (MS) And Got Out Of My Wheelchair by Terry L. Wahls, MD"
+    },
+    {
+        "id": 36,
+        "title": "Missing Microbes",
+        "description": "How The Overuse Of Antibiotics Is Fueling Our Modern Plagues by Martin J. Blaser, MD"
+    },
+    {
+        "id": 37,
+        "title": "Money-Driven Medicine",
+        "description": "The Real Reason Health Care Costs So Much by Maggie Mahar"
+    },
+    {
+        "id": 38,
+        "title": "No Grain, No Pain",
+        "description": "A 30-Day Diet For Eliminating The Root Cause Of Chronic Pain by Dr. Peter Osborne"
+    },
+    {
+        "id": 39,
+        "title": "Nourishing Traditions",
+        "description": "The Cookbook that Challenges Politically Correct Nutrition and the Diet Dictocrats by Sally Fallon"
+    },
+       {
+        "id": 40,
+        "title": "The Cookbook that Challenges Politically Correct Nutrition and the Diet Dictocrats by Sally Fallon",
+        "description": "A Natural History of Four Meals by Michael Pollan (Audio book)"
+    },
+    {
+        "id": 41,
+        "title": "One In A Billion",
+        "description": "The Story Of Nic Volker And The Dawn Of Genomic Medicine by Mark Johnson and Kathleen Gallagher"
+    },
+    {
+        "id": 42,
+        "title": "Our Stolen Future",
+        "description": "Are We Threatening Our Fertility, Intelligence and Survival: A Scientific Detective Story by Theo Colborn, Dianne Dumanoski & John Peterson Myers"
+    },
+    {
+        "id": 43,
+        "title": "Outsmart Your Genes",
+        "description": "How Understanding Your DNA Will Empower You to Protect Yourself Against Cancer, Alzheimer's, Heart Disease, Obesity and Many Other Conditions by Brandon Colby, MD"
+    },
+    {
+        "id": 44,
+        "title": "Over-Diagnosed",
+        "description": "Making People Sick In The Pursuit Of Health by Dr. H. Gilbert Welch, Dr. Lisa M. Schwartz and Dr. Steven Woloshin"
+    },
+    {
+        "id": 45,
+        "title": "Overcoming Thyroid Disorders",
+        "description": "A Holistic Approach to Treating Thyroid Disorders Including Hypothyroidism, Graves' Disease and Hashimoto's Disease by David Brownstein, M.D."
+    },
+    {
+        "id": 46,
+        "title": "Overdosed America",
+        "description": "The Broken Promise of American Medicine by John Abramson MD"
+    },
+    {
+        "id": 47,
+        "title": "Radical Remission",
+        "description": "Surviving Cancer Against All Odds by Kelly A Turner, Ph.D."
+    },
+    {
+        "id": 48,
+        "title": "Recognizing Celiac Disease",
+        "description": "Signs Symptoms, Associated Disorders and Complications by Cleo J. Libonati, RN, BSN"
+    },
+    {
+        "id": 49,
+        "title": "Reverse Heart Disease Now",
+        "description": "Stop Deadly Cardiovascular Plaque Before It's Too Late by Stephen Sinatra, M.D. and James Roberts, M.D."
+    },
+    {
+        "id": 50,
+        "title": "Salt Your Way To Health",
+        "description": "By David Brownstein, M.D."
+    },
+    {
+        "id": 51,
+        "title": "Saying No To Vaccines",
+        "description": "A Resource Guide For All Ages by Dr. Sherri Tenpenny"
+    },
+    {
+        "id": 52,
+        "title": "Special Diet Solutions",
+        "description": "Healthy Cooking Without Wheat, Gluten, Dairy, Eggs, Yeast or Refined Sugar by Carol Fenster PhD."
+    },
+    {
+        "id": 53,
+        "title": "Sweet Deception",
+        "description": "Why Splenda, NutraSweet and the FDA May be Hazardous to Your Heath by Dr. Joseph Mercola and Dr. Kendra Degen Pearsall"
+    },
+    {
+        "id": 54,
+        "title": "The Big Fat Surprise",
+        "description": "Why Butter, Meat And Cheese Belong In A Healthy Diet by Nina Teicholz"
+    },
+    {
+        "id": 55,
+        "title": "The Blue Zones",
+        "description": "9 Lessons For Living Longer From The People Who've Lived the Longest by Dan Buettner"
+    },
+    {
+        "id": 56,
+        "title": "The China Study",
+        "description": "By T. Colin Campbell, PhD and Thomas M. Campbell II"
+    },
+    {
+        "id": 57,
+        "title": "The Cholesterol Myths",
+        "description": "Exposing the Fallacy That Saturated Fat and Cholesterol Cause Heart Disease by Uffe Ravnskov"
+    },
+    {
+        "id": 58,
+        "title": "The Definitive Guide To Cancer",
+        "description": "An Integrative Approach to Prevention, Treatment and Healing by Lise Alschuler, ND, FABNO and Karolyn A. Gazella"
+    },
+    {
+        "id": 59,
+        "title": "The End Of Overeating",
+        "description": "By David A. Kessler (Audio book)"
+    },
+    {
+        "id": 60,
+        "title": "The Fattening Of America",
+        "description": "How the Economy Makes Us Fat, If It Matters, and What to Do About It by Eric A. Finkelstein and Laurie Zuckerman"
+    },
+    {
+        "id": 61,
+        "title": "The Garden Of Eating",
+        "description": "A Produce-Dominated Diet & Cookbook by Rachel Albert and Don Matesz"
+    },
+    {
+        "id": 62,
+        "title": "The Microbiome Solution",
+        "description": "A Radical New Way To Heal Your Body From The Inside Out by Robyne Chutlan MD"
+    },
+    {
+        "id": 63,
+        "title": "The Paleo Cardiologist",
+        "description": "The Natural Way to Heart Health by Jack Wolfson DO, FACC"
+    },
+    {
+        "id": 64,
+        "title": "The Paleo Chef",
+        "description": "Quick, Flavorful Paleo Meals For Eating Well by Pete Evans"
+    },
+    {
+        "id": 65,
+        "title": "The Patient Will See You Now",
+        "description": "The Future of Medicine Is In Your Hands by Eric Topol"
+    },
+    {
+        "id": 66,
+        "title": "The Recipe Hacker",
+        "description": "Comfort Foods Without Gluten, Dairy, Soy, Grain or Cane Sugar by Diana Keuilian"
+    },
+    {
+        "id": 67,
+        "title": "The Rosedale Diet",
+        "description": "By Ron Rosedale, M.D."
+    },
+     {
+        "id": 68,
+        "title": "The UltraMind Solution",
+        "description": "Fix Your Broken Brain by Healing Your Body First by Mark Hyman, M.D. (Audio CD)"
+    },
+     {
+        "id": 69,
+        "title": "The Vegetarian Myth",
+        "description": "Food, Justice and Sustainability by Lierre Keith"
+    },
+     {
+        "id": 70,
+        "title": "The Whole-Body Approach To Osteoporosis",
+        "description": "How To Improve Bone Strength And Reduce Your Fracture Risk by R. Keith McCormick, DC"
+    },
+     {
+        "id": 71,
+        "title": "The Meals To Heal Cookbook",
+        "description": "150 Easy, Nutritionally Balanced Recipes to Nourish You during Your Fight with Cancer by Susan Bratton, Jessica Iannotta"
+    },
+    {
+        "id": 72,
+        "title": "Thyroid Power",
+        "description": "Ten Steps to Total Health by Richard L. Shames, M.D. & Karilee H. Shames, R.N., PhD."
+    },
+    {
+        "id": 73,
+        "title": "Total Wellness",
+        "description": "Improve Your Health by Understanding the Body's Healing Systems by Joseph Pizzorno, N.D."
+    },
+    {
+        "id": 74,
+        "title": "What Your Doctor May Not Tell You About Heart Disease",
+        "description": "The Revolutionary Book That Reveals The Truth Behind Coronary Illnesses And How You Can Fight Them by Mark C. Houston, MD, MS"
+    },
+    {
+        "id": 75,
+        "title": "Why We Get Fat And What To Do About It",
+        "description": "By Gary Taubes"
+    },
+    {
+        "id": 76,
+        "title": "Women's Bodies, Women's Wisdom",
+        "description": "By Christiane Northrup, M.D."
+    },
+    {
+        "id": 77,
+        "title": "Your Body's Many Cries For Water",
+        "description": "By Batmanghelidji, M.D."
+    },
+    {
+        "id": 78,
+        "title": "Your Hidden Food Allergies Are Making You Fat",
+        "description": "By Rudy Rivera, M.D. and Roger Davis Deutsch."
+    }
+]
