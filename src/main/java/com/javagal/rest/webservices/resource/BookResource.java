@@ -34,7 +34,7 @@ public class BookResource {
 	
 	@GetMapping("/rest/books")
 	List<Book> retrieveAllBooks() {
-		return bookRepository.findAll();
+		return bookRepository.findAllByOrderByTitleAsc();
 	}
 	
 	@GetMapping("/rest/books/{id}")

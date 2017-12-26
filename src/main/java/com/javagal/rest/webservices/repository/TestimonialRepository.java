@@ -11,8 +11,6 @@ import com.javagal.rest.webservices.domain.Testimonial;
 @Transactional
 public interface TestimonialRepository extends PagingAndSortingRepository<Testimonial, Integer> {
 	
-	public List<Testimonial> findAll();
-	
 	public List<Testimonial> findAllByOrderByCustomerNameAsc();
 	
 }

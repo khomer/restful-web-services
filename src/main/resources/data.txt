@@ -68,8 +68,8 @@ insert into book(id, title, description) values (40,'Money-Driven Medicine', 'Th
 
 
 insert into book(id, title, description) values (41,'No Grain, No Pain ', 'A 30-Day Diet For Eliminating The Root Cause Of Chronic Pain by Dr. Peter Osborne ');
-insert into book(id, title, description) values (42,' Nourishing Traditions', ' The Cookbook that Challenges Politically Correct Nutrition and the Diet Dictocrats by Sally Fallon');
-insert into book(id, title, description) values (43,' One In A Billion', ' The Story Of Nic Volker And 	The Dawn Of Genomic Medicine by Mark Johnson and Kathleen Gallagher');
+insert into book(id, title, description) values (42,'Nourishing Traditions', ' The Cookbook that Challenges Politically Correct Nutrition and the Diet Dictocrats by Sally Fallon');
+insert into book(id, title, description) values (43,'One In A Billion', ' The Story Of Nic Volker And 	The Dawn Of Genomic Medicine by Mark Johnson and Kathleen Gallagher');
 insert into book(id, title, description) values (44,'Over-Diagnosed ', ' Making People Sick In The Pursuit Of Health by Dr. H. Gilbert Welch, Dr. Lisa M. Schwartz and Dr. Steven Woloshin');
 insert into book(id, title, description) values (45,'Overdosed America ', 'The Broken Promise of American Medicine by John Abramson MD ');
 
